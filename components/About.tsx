@@ -26,7 +26,7 @@ export default function About() {
   }, [])
 
   return (
-    <section ref={aboutRef} className="about-section fade-in py-32 relative">
+    <section ref={aboutRef} className="about-section fade-in py-32 relative" id="about">
       <div className="diagonal-bg"></div>
 
       <div className="container mx-auto px-6 relative z-10">

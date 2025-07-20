@@ -59,7 +59,7 @@ export default function Footer() {
         {/* Dolna stopka */}
         <div className="mt-12 border-t border-gray-300 pt-6 text-sm text-center">
           &copy; 2025 PsiStyl. Wszystkie prawa zastrzeżone.{' '}
-          <a href="/polityka-prywatnosci" className="underline hover:text-gray-600">Polityka prywatności</a> <br></br>
+          <a href="/" className="underline hover:text-gray-600">Polityka prywatności</a> <br></br>
 
           <Link href={"https://rumcajzdev.netlify.app"} className="underline " target="_blank">
             Developed and designed by rumcajzdev

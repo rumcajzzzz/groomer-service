@@ -82,15 +82,23 @@ export default function Hero() {
               </div>
 
               <div className="cta-container mt-8 flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-                <button className="btn-organic primary">
-                  <Link href="#contact">Umów wizytę</Link>
-                  <div className="btn-blob"></div>
-                </button>
-                <button className="btn-organic secondary my-4">
-                  <span>Poznaj nas</span>
-                  <div className="btn-blob"></div>
-                </button>
-              </div>
+  <Link
+    href="#contact"
+    className="btn-organic primary text-lg font-semibold relative inline-flex items-center justify-center"
+  >
+    <span>Umów wizytę</span>
+    <div className="btn-blob"></div>
+  </Link>
+
+  <Link
+    href="#about"
+    className="btn-organic secondary text-base font-medium my-4 sm:my-0 relative inline-flex items-center justify-center"
+  >
+    <span>Poznaj nas</span>
+  </Link>
+</div>
+
+
             </div>
 
           </div>
